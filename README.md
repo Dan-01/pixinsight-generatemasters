@@ -56,6 +56,8 @@ If GenerateMasters is missing from the menu, use **Script → Feature Scripts** 
 4. Select **Review inputs** to check the detected groups, matching calibration and storage requirements.
 5. Select **Generate / resume masters**, review the measured frames when prompted, and inspect the resulting masters and rejection maps before accepting them.
 
+To inspect one measured frame, select its table row and choose **Individual frames → Open selected calibrated frame**, or double-click the row. GenerateMasters saves your review and pauses the prompt so the image opens in PixInsight with normal zoom and display controls. Reopen GenerateMasters and choose **Generate / resume masters** to return to the same frame and saved notes. Opening a frame does not accept it. **Open selected master and maps** works the same way during final master review. This requires GenerateMasters 0.4.10 or later.
+
 Mixed light exposures are handled separately. For example, 600-second luminance and 300-second colour frames use their own matching darks. When building calibration masters from raw frames, provide at least three compatible darks per required exposure, plus three flats and three matching dark-flats per filter.
 
 Keep personal configuration, source frames and saved masters outside the installation folder.
