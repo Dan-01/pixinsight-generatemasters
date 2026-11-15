@@ -12,9 +12,4 @@ jobs:
           persist-credentials: false
       - run: python3 tools/test-release.py
       - name: Validate update feed
-        run: |
-          if test -f updates/updates.xri; then
-            python3 tools/validate-repository.py updates
-          else
-            echo 'Publishing infrastructure only; first release PR is pending.'
-          fi
+        run: python3 tools/validate-repository.py updates
