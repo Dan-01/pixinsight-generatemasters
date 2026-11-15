@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xri version="1.0">
   <description>
-    <p>GenerateMasters native updates. Node.js 24 required.</p>
+    <p>GenerateMasters native updates. Node.js 24.22.3 or a newer Node 24 patch required.</p>
   </description>
   <platform os="macosx" arch="noarch" version="1.9.4:1.9.99">
-    <package fileName="GenerateMasters-0.4.7-20261115150510.zip" sha1="e339f26bcab8752eda4b5cba995cd92114ff2430" type="script" releaseDate="20261115150510">
-      <title>GenerateMasters 0.4.7</title>
+    <package fileName="GenerateMasters-0.4.8-20261115154840.zip" sha1="e9e9d85c9f65ab2876621c54219d1ba532deb928" type="script" releaseDate="20261115154840">
+      <title>GenerateMasters 0.4.8</title>
       <description>
-        <p>Generate calibrated, registered and integrated linear masters. Requires an external Node.js 24 executable.</p>
+        <p>Generate calibrated, registered and integrated linear masters. Requires an external Node.js 24.22.3 or newer Node 24 executable.</p>
       </description>
     </package>
   </platform>
   <platform os="linux" arch="noarch" version="1.9.4:1.9.99">
-    <package fileName="GenerateMasters-0.4.7-20261115150510.zip" sha1="e339f26bcab8752eda4b5cba995cd92114ff2430" type="script" releaseDate="20261115150510">
-      <title>GenerateMasters 0.4.7</title>
+    <package fileName="GenerateMasters-0.4.8-20261115154840.zip" sha1="e9e9d85c9f65ab2876621c54219d1ba532deb928" type="script" releaseDate="20261115154840">
+      <title>GenerateMasters 0.4.8</title>
       <description>
-        <p>Generate calibrated, registered and integrated linear masters. Requires an external Node.js 24 executable.</p>
+        <p>Generate calibrated, registered and integrated linear masters. Requires an external Node.js 24.22.3 or newer Node 24 executable.</p>
       </description>
     </package>
   </platform>
