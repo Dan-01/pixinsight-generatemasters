@@ -21,7 +21,7 @@ The results include linear masters in XISF format, low and high rejection maps, 
 - Node.js **26.13.1 or a newer Node 26 patch**, installed separately. The GenerateMasters update includes its supporting JavaScript libraries.
 - Sufficient free space for working images and final masters.
 
-**PixInsight 1.9.6 build 1718:** installation, launch and a small synthetic integration have been verified. Frame measurement, local normalization and drizzle remain blocked by GenerateMasters' existing compatibility checks on this build. A complete automatic masters run requiring those steps is not yet supported on that build.
+**PixInsight 1.9.6 build 1718:** GenerateMasters 0.4.9 uses **ImageAnalysis** for frame measurement. Master creation, calibration, measurement, registration, local normalization, integration and rejection-aware 2× drizzle have passed a five-light synthetic test on macOS arm64. Drizzle retained the integration rejection counts and produced the expected doubled dimensions. Native Linux processing and a new full science-data acceptance run have not been tested. Earlier unvalidated 1.9.6 builds remain blocked; update PixInsight to build 1718.
 
 ## Install and update
 
@@ -36,7 +36,7 @@ The results include linear masters in XISF format, low and high rejection maps, 
 4. Exit PixInsight, confirm installation of the downloaded update, and restart.
 5. Open **GenerateMasters** from the **Script** menu. If a supported Node.js 26 patch is not detected, select its executable under **Advanced**.
 
-Future versions arrive through the same **Check for Updates** command. Current releases are unsigned, so PixInsight may ask you to confirm the download.
+Future versions arrive through the same **Check for Updates** command. After updating, close any open GenerateMasters dialog and reopen the updater-installed copy. Version 0.4.9 uses a new processing fingerprint for the ImageAnalysis contract, so an interrupted older run may require a fresh frame review; completed masters are retained. Current releases are unsigned, so PixInsight may ask you to confirm the download.
 
 The previous raw GitHub address also continues to work as a fallback:
 
