@@ -20,7 +20,7 @@ def validate(directory):
     assert {p.get('os') for p in platforms} == {'macosx', 'linux'}
     packages = []
     for platform in platforms:
-        assert platform.get('arch') == 'noarch' and platform.get('version') == '1.9.4:*'
+        assert platform.get('arch') == 'noarch' and platform.get('version') == '1.9.4:1.9.99'
         assert len(platform.findall('package')) == 1
         packages.append(platform.find('package'))
     package = packages[0]
