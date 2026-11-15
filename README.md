@@ -18,14 +18,14 @@ The results include linear masters in XISF format, low and high rejection maps, 
 
 - macOS or Linux.
 - PixInsight 1.9.4 or later, with support for the native processes required by the selected workflow.
-- Node.js **24.22.3 or a newer Node 24 patch**, installed separately. The GenerateMasters update includes its supporting JavaScript libraries.
+- Node.js **26.13.1 or a newer Node 26 patch**, installed separately. The GenerateMasters update includes its supporting JavaScript libraries.
 - Sufficient free space for working images and final masters.
 
 **PixInsight 1.9.6 build 1718:** installation, launch and a small synthetic integration have been verified. Frame measurement, local normalization and drizzle remain blocked by GenerateMasters' existing compatibility checks on this build. A complete automatic masters run requiring those steps is not yet supported on that build.
 
 ## Install and update
 
-1. Install Node.js 24.22.3 or a newer Node 24 patch.
+1. Install Node.js 26.13.1 or a newer Node 26 patch.
 2. In PixInsight, open **Resources → Updates → Manage Repositories → Add** and enter this address, including the final slash:
 
    ```text
@@ -34,7 +34,7 @@ The results include linear masters in XISF format, low and high rejection maps, 
 
 3. Choose **Resources → Updates → Check for Updates** and apply GenerateMasters.
 4. Exit PixInsight, confirm installation of the downloaded update, and restart.
-5. Open **GenerateMasters** from the **Script** menu. If a supported Node.js 24 patch is not detected, select its executable under **Advanced**.
+5. Open **GenerateMasters** from the **Script** menu. If a supported Node.js 26 patch is not detected, select its executable under **Advanced**.
 
 Future versions arrive through the same **Check for Updates** command. Current releases are unsigned, so PixInsight may ask you to confirm the download.
 
