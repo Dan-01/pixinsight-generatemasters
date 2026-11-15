@@ -1,0 +1,19 @@
+name: Validate GenerateMasters repository
+on: [pull_request, push, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - run: python3 tools/test-release.py
+      - name: Validate update feed
+        run: |
+          if test -f updates/updates.xri; then
+            python3 tools/validate-repository.py updates
+          else
+            echo 'Publishing infrastructure only; first release PR is pending.'
+          fi

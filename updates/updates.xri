@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xri version="1.0">
+  <description>
+    <p>GenerateMasters native updates. Node.js 24 required.</p>
+  </description>
+  <platform os="macosx" arch="noarch" version="1.9.4:*">
+    <package fileName="GenerateMasters-0.4.7-20261115150004.zip" sha1="322b3b2ae1ca93fa52c9fea9cf06b90bb1d9a765" type="script" releaseDate="20261115150004">
+      <title>GenerateMasters 0.4.7</title>
+      <description>
+        <p>Generate calibrated, registered and integrated linear masters. Requires an external Node.js 24 executable.</p>
+      </description>
+    </package>
+  </platform>
+  <platform os="linux" arch="noarch" version="1.9.4:*">
+    <package fileName="GenerateMasters-0.4.7-20261115150004.zip" sha1="322b3b2ae1ca93fa52c9fea9cf06b90bb1d9a765" type="script" releaseDate="20261115150004">
+      <title>GenerateMasters 0.4.7</title>
+      <description>
+        <p>Generate calibrated, registered and integrated linear masters. Requires an external Node.js 24 executable.</p>
+      </description>
+    </package>
+  </platform>
+</xri>
