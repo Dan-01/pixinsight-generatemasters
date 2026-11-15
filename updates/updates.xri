@@ -4,7 +4,7 @@
     <p>GenerateMasters native updates. Node.js 24 required.</p>
   </description>
   <platform os="macosx" arch="noarch" version="1.9.4:*">
-    <package fileName="GenerateMasters-0.4.7-20261115150004.zip" sha1="322b3b2ae1ca93fa52c9fea9cf06b90bb1d9a765" type="script" releaseDate="20261115150004">
+    <package fileName="GenerateMasters-0.4.7-20261115150005.zip" sha1="7c9d216b73524f278fdc1cc6178b5dd15b10b4a1" type="script" releaseDate="20261115150005">
       <title>GenerateMasters 0.4.7</title>
       <description>
         <p>Generate calibrated, registered and integrated linear masters. Requires an external Node.js 24 executable.</p>
@@ -12,7 +12,7 @@
     </package>
   </platform>
   <platform os="linux" arch="noarch" version="1.9.4:*">
-    <package fileName="GenerateMasters-0.4.7-20261115150004.zip" sha1="322b3b2ae1ca93fa52c9fea9cf06b90bb1d9a765" type="script" releaseDate="20261115150004">
+    <package fileName="GenerateMasters-0.4.7-20261115150005.zip" sha1="7c9d216b73524f278fdc1cc6178b5dd15b10b4a1" type="script" releaseDate="20261115150005">
       <title>GenerateMasters 0.4.7</title>
       <description>
         <p>Generate calibrated, registered and integrated linear masters. Requires an external Node.js 24 executable.</p>

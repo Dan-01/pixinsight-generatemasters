@@ -36,6 +36,7 @@ def validate(directory):
     with zipfile.ZipFile(directory/name) as archive:
         names = archive.namelist()
         assert len(names) == len(set(names)) and len(names) < 2000
+        assert sum(i.file_size for i in archive.infolist()) < 100_000_000
         manifest = json.loads(archive.read(PREFIX+'release-manifest.json'))
         assert manifest['name'] == 'GenerateMasters' and manifest['schemaVersion'] == 1
         entries = manifest['files']
