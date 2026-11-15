@@ -4,16 +4,16 @@
     <p>GenerateMasters native updates. Node.js 26.13.1 or a newer Node 26 patch required.</p>
   </description>
   <platform os="macosx" arch="noarch" version="1.9.4:1.9.99">
-    <package fileName="GenerateMasters-0.4.10-20261115205309.zip" sha1="5489ae05f77d2075bdbf8cfdaa092b3aae0d932e" type="script" releaseDate="20261115205309">
-      <title>GenerateMasters 0.4.10</title>
+    <package fileName="GenerateMasters-0.4.11-20261115211408.zip" sha1="1c0e7f9600b9f12cbb34c1c11c55b11ed3b8bfaa" type="script" releaseDate="20261115211408">
+      <title>GenerateMasters 0.4.11</title>
       <description>
         <p>Generate calibrated, registered and integrated linear masters. Requires an external Node.js 26.13.1 or newer Node 26 executable.</p>
       </description>
     </package>
   </platform>
   <platform os="linux" arch="noarch" version="1.9.4:1.9.99">
-    <package fileName="GenerateMasters-0.4.10-20261115205309.zip" sha1="5489ae05f77d2075bdbf8cfdaa092b3aae0d932e" type="script" releaseDate="20261115205309">
-      <title>GenerateMasters 0.4.10</title>
+    <package fileName="GenerateMasters-0.4.11-20261115211408.zip" sha1="1c0e7f9600b9f12cbb34c1c11c55b11ed3b8bfaa" type="script" releaseDate="20261115211408">
+      <title>GenerateMasters 0.4.11</title>
       <description>
         <p>Generate calibrated, registered and integrated linear masters. Requires an external Node.js 26.13.1 or newer Node 26 executable.</p>
       </description>

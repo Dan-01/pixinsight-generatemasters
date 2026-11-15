@@ -60,4 +60,6 @@ To inspect one measured frame, select its table row and choose **Individual fram
 
 Mixed light exposures are handled separately. For example, 600-second luminance and 300-second colour frames use their own matching darks. When building calibration masters from raw frames, provide at least three compatible darks per required exposure, plus three flats and three matching dark-flats per filter.
 
+GenerateMasters **0.4.11** fixes a publication error when processing in the current PixInsight instance. If an earlier run stopped while saving masters with a missing result-file error, update and choose **Generate / resume masters**. Verified stages and saved review decisions are reused.
+
 Keep personal configuration, source frames and saved masters outside the installation folder.
