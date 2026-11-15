@@ -29,7 +29,7 @@ The results include linear masters in XISF format, low and high rejection maps, 
 2. In PixInsight, open **Resources → Updates → Manage Repositories → Add** and enter this address, including the final slash:
 
    ```text
-   https://raw.githubusercontent.com/Dan-01/pixinsight-generatemasters/master/updates/
+   https://dan-01.github.io/pixinsight-generatemasters/updates/
    ```
 
 3. Choose **Resources → Updates → Check for Updates** and apply GenerateMasters.
@@ -37,6 +37,14 @@ The results include linear masters in XISF format, low and high rejection maps, 
 5. Open **GenerateMasters** from the **Script** menu. If a supported Node.js 26 patch is not detected, select its executable under **Advanced**.
 
 Future versions arrive through the same **Check for Updates** command. Current releases are unsigned, so PixInsight may ask you to confirm the download.
+
+The previous raw GitHub address also continues to work as a fallback:
+
+```text
+https://raw.githubusercontent.com/Dan-01/pixinsight-generatemasters/master/updates/
+```
+
+Use one GenerateMasters repository address in PixInsight to avoid duplicate update entries.
 
 If GenerateMasters is missing from the menu, use **Script → Feature Scripts** to add `<PixInsight>/src/scripts/GenerateMasters/pixinsight/`. An earlier manually registered copy may produce a duplicate menu entry; use the copy installed by the updater for automatic updates.
 
