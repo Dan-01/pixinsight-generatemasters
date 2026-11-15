@@ -25,7 +25,7 @@ class ReleaseValidation(unittest.TestCase):
         sha=hashlib.sha1((directory/name).read_bytes()).hexdigest()
         root=ET.Element('xri',version='1.0')
         for os in ['macosx','linux']:
-            p=ET.SubElement(root,'platform',os=os,arch='noarch',version='1.9.4:*')
+            p=ET.SubElement(root,'platform',os=os,arch='noarch',version='1.9.4:1.9.99')
             ET.SubElement(p,'package',fileName=name,sha1=sha,type='script',releaseDate='20261115150003')
         (directory/'updates.xri').write_bytes(ET.tostring(root))
         (directory/'SHA256SUMS').write_text(''.join(hashlib.sha256((directory/f).read_bytes()).hexdigest()+'  '+f+'\n' for f in [name,'updates.xri']))
